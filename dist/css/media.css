@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+  .navbar {
+    background: white; }
+    .navbar .navbar-content i {
+      display: block; }
+    .navbar .navbar-content ul {
+      display: none; }
+      .navbar .navbar-content ul li {
+        margin-top: 1.5rem;
+        margin-bottom: 1rem; }
+        .navbar .navbar-content ul li a {
+          color: #333; }
+    .navbar .navbar-content .logo {
+      margin-top: 1.5rem;
+      margin-bottom: 1rem; }
+  #showcase {
+    margin-top: 2rem; }
+    #showcase .showcase-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      #showcase .showcase-content .box-1-title {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+        margin-top: 2rem; }
+        #showcase .showcase-content .box-1-title .title-landing {
+          margin-bottom: .051rem;
+          justify-content: center;
+          align-items: center; }
+      #showcase .showcase-content .box-2-card {
+        margin-top: 5rem; }
+        #showcase .showcase-content .box-2-card img {
+          display: flex;
+          margin-left: 0; } }
